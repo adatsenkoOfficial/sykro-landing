@@ -1,0 +1,112 @@
+.footer {
+  position: relative;
+  width: 100%;
+  background: radial-gradient(ellipse at bottom, #0a0a0a 40%, #0f0f0f 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 60px 20px 40px;
+  color: #ccc;
+  font-family: 'Neue Machina', sans-serif;
+  overflow: hidden;
+
+  // animated gradient halo
+  &:before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -25%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(121,40,202,0.1), rgba(0,112,243,0.05), transparent);
+    animation: subtleGlow 20s ease-in-out infinite;
+    z-index: 0;
+  }
+
+  @keyframes subtleGlow {
+    0% {
+      transform: scale(1) translate(0, 0);
+    }
+    50% {
+      transform: scale(1.05) translate(3%, -2%);
+    }
+    100% {
+      transform: scale(1) translate(0, 0);
+    }
+  }
+
+  .footer-content {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer-brand {
+    .footer-logo {
+      font-size: 26px;
+      font-weight: 700;
+      background: linear-gradient(90deg, #7928ca, #0070f3);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: filter 0.4s ease;
+      filter: drop-shadow(0 0 2px #7928ca88);
+
+      &:hover {
+        filter: drop-shadow(0 0 6px #0070f388);
+      }
+    }
+
+    .footer-tagline {
+      font-size: 14px;
+      color: #aaa;
+      margin-top: 6px;
+    }
+  }
+
+  .footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    a {
+      font-size: 14px;
+      color: #ccc;
+      text-decoration: none;
+      position: relative;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #fff;
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 50%;
+        width: 0;
+        height: 1px;
+        background: #0070f3;
+        transition: width 0.3s, left 0.3s;
+      }
+
+      &:hover:after {
+        width: 100%;
+        left: 0;
+      }
+    }
+  }
+
+  .footer-contact {
+    font-size: 13px;
+    color: #777;
+
+    p {
+      margin: 2px 0;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.contactus-section {
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Neue Machina', sans-serif;
+
+  .section-title {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #7928ca, #0070f3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .contactus-description {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    line-height: 1.6;
+  }
+
+  .contactus-cta {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+    strong {
+      color: white;
+    }
+  }
+
+  .contactus-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    .btn {
+      padding: 12px 24px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-family: 'Neue Machina', sans-serif;
+    }
+  }
+}

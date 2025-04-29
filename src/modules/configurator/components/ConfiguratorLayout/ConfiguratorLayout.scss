@@ -1,0 +1,113 @@
+.configurator-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: transparent;
+
+  &__content {
+    flex: 1;
+    overflow: auto;
+  }
+
+  &__chat {
+    width: 100%;
+    padding: 24px 32px 16px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 0 0 24px 24px;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 -1px 20px rgba(0, 0, 0, 0.2) inset;
+  }
+
+  &__chat-messages {
+    overflow-y: auto;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: max-height 0.3s ease;
+
+    &.expanded {
+      max-height: 300px;
+    }
+
+    &.collapsed {
+      max-height: 80px;
+    }
+  }
+
+  &__chat-message {
+    padding: 8px 14px;
+    border-radius: 16px;
+    max-width: 70%;
+    word-wrap: break-word;
+    font-family: var(--font-main);
+    font-size: 0.95rem;
+    line-height: 1.4;
+    backdrop-filter: blur(6px);
+  }
+
+  .user-message {
+    align-self: flex-end;
+    background: rgba(0, 112, 243, 0.1);
+    color: #8ecbff;
+    border: 1px solid rgba(0, 112, 243, 0.3);
+  }
+
+  .ai-message {
+    align-self: flex-start;
+    background: rgba(255, 255, 255, 0.05);
+    color: #ddd;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .ai-message-image {
+    align-self: flex-start;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 12px;
+      display: block;
+    }
+  }
+
+  .ai-message-text {
+    align-self: flex-start;
+    background: rgba(255, 255, 255, 0.04);
+    color: #e4e4e4;
+    border-radius: 16px;
+    padding: 8px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  &__chat-input {
+    display: flex;
+    gap: 8px;
+
+    input,
+    .MuiOutlinedInput-root {
+      background-color: rgba(255, 255, 255, 0.02);
+      border-radius: 10px;
+      color: #fff;
+    }
+
+    button {
+      background: rgba(0, 112, 243, 0.2);
+      color: #fff;
+      backdrop-filter: blur(6px);
+      border-radius: 10px;
+      transition: all 0.2s ease;
+
+      &:hover {
+        background: rgba(0, 112, 243, 0.35);
+        transform: scale(1.03);
+      }
+    }
+  }
+}

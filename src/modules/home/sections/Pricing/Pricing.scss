@@ -1,0 +1,80 @@
+// Pricing.scss
+
+.pricing-section {
+  padding: 100px 20px;
+  background: #000;
+  color: #fff;
+  font-family: 'Neue Machina', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 38px;
+  margin-bottom: 24px;
+  background: linear-gradient(to right, #7928ca, #0070f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pricing-intro {
+  font-size: 18px;
+  max-width: 700px;
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+.pricing-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px;
+  max-width: 750px;
+  font-size: 17px;
+  line-height: 1.8;
+  text-align: left;
+
+  li {
+    margin-bottom: 20px;
+
+    &::before {
+      content: '🟣';
+      margin-right: 10px;
+      font-size: 14px;
+      vertical-align: middle;
+    }
+
+    strong {
+      color: #fff;
+    }
+  }
+}
+
+.pricing-note {
+  max-width: 700px;
+  font-size: 16px;
+  color: #aaa;
+  line-height: 1.6;
+
+  strong {
+    color: #fff;
+  }
+}
+
+// Responsive tweaks
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 28px;
+  }
+
+  .pricing-intro,
+  .pricing-note {
+    font-size: 16px;
+  }
+
+  .pricing-list {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+.dynamic-question__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.dynamic-question__input-container {
+  padding: 12px;
+  background: linear-gradient(135deg, #f9f9f9, #ffffff);
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 12px;
+
+  &:hover {
+    border-color: #c8c8c8;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+}
+
+.dynamic-question__text-input {
+  border-radius: 4px;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+.dynamic-question__switch-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: #555;
+}
+
+.dynamic-question__switch {
+  margin-right: 8px;
+}
+
+.dynamic-question__select {
+  border-radius: 4px;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  .MuiSelect-select {
+    padding: 8px;
+  }
+}

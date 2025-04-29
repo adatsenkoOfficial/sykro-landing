@@ -1,0 +1,25 @@
+.question-wrapper {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  &__content {
+    margin-bottom: 16px;
+  }
+
+  &__short-description {
+    margin-bottom: 16px;
+  }
+
+  &__explain-btn {
+    // Add additional styles if needed
+  }
+}

@@ -1,0 +1,46 @@
+.aboutus-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 120px 20px;
+  text-align: center;
+  font-family: 'Neue Machina', sans-serif;
+  color: #e2e2e2;
+
+  .section-title {
+    font-size: 34px;
+    line-height: 1.3;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    margin-bottom: 48px;
+    background: linear-gradient(90deg, #7928ca 0%, #0070f3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .aboutus-description {
+    font-size: 18px;
+    line-height: 1.65;
+    margin-bottom: 32px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    strong {
+      font-weight: 700;
+      color: #ffffff;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 80px 16px;
+
+    .section-title {
+      font-size: 26px;
+    }
+
+    .aboutus-description {
+      font-size: 16px;
+      margin-bottom: 24px;
+    }
+  }
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+.review-launch {
+  padding: 24px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  &__title {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 24px;
+  }
+
+  &__section {
+    margin-bottom: 24px;
+  }
+
+  &__section-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 12px;
+  }
+
+  &__preset {
+    padding: 12px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+  }
+
+  &__preset-name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 4px;
+  }
+
+  &__preset-description {
+    font-size: 0.9rem;
+    color: #555;
+  }
+
+  &__general-item,
+  &__hardware-item {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 8px;
+  }
+
+  &__not-selected {
+    font-size: 1rem;
+    color: #999;
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px;
+  }
+
+  &__btn {
+    min-width: 120px;
+  }
+
+  &__btn--back {
+    border-color: #999;
+    color: #999;
+  }
+
+  &__btn--send {
+    background-color: #1976d2;
+    color: #fff;
+  }
+
+  &__btn--contact {
+    background-color: #d32f2f;
+    color: #fff;
+  }
+}

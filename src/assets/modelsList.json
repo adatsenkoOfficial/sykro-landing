@@ -1,0 +1,3146 @@
+{
+  "categories": [
+    {
+      "category_name": "reasoning",
+      "models": [
+        {
+          "model_name": "Llama-3.2-11B-Vision-Instruct#",
+          "model_info": {
+            "description": "Parsed from NIM Support Matrix: Llama-3.2-11B-Vision-Instruct#",
+            "type": "vision-instruct",
+            "nim_type": "vision",
+            "num_parameters": 0,
+            "date_published": "",
+            "publisher": "",
+            "license_url": "",
+            "model_card_url": "",
+            "language_support": [],
+            "image_support": true
+          },
+          "launch_configurations": [
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A10G",
+              "gpu_memory_gb": 24,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A10G",
+              "gpu_memory_gb": 24,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "non-optimized",
+              "gpu_memory_gb": 60,
+              "precision": "BF16",
+              "disk_space_gb": 50,
+              "type": "unknown"
+            }
+          ]
+        },
+        {
+          "model_name": "Llama-3.2-90B-Vision-Instruct#",
+          "model_info": {
+            "description": "Parsed from NIM Support Matrix: Llama-3.2-90B-Vision-Instruct#",
+            "type": "vision-instruct",
+            "nim_type": "vision",
+            "num_parameters": 0,
+            "date_published": "",
+            "publisher": "",
+            "license_url": "",
+            "model_card_url": "",
+            "language_support": [],
+            "image_support": true
+          },
+          "launch_configurations": [
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "non-optimized",
+              "gpu_memory_gb": 240,
+              "precision": "BF16",
+              "disk_space_gb": 200,
+              "type": "unknown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "vision",
+      "models": [
+        {
+          "model_name": "Llama-3.2-11B-Vision-Instruct#",
+          "model_info": {
+            "description": "Parsed from NIM Support Matrix: Llama-3.2-11B-Vision-Instruct#",
+            "type": "vision-instruct",
+            "nim_type": "vision",
+            "num_parameters": 0,
+            "date_published": "",
+            "publisher": "",
+            "license_url": "",
+            "model_card_url": "",
+            "language_support": [],
+            "image_support": true
+          },
+          "launch_configurations": [
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A10G",
+              "gpu_memory_gb": 24,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A10G",
+              "gpu_memory_gb": 24,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "non-optimized",
+              "gpu_memory_gb": 60,
+              "precision": "BF16",
+              "disk_space_gb": 50,
+              "type": "unknown"
+            }
+          ]
+        },
+        {
+          "model_name": "Llama-3.2-90B-Vision-Instruct#",
+          "model_info": {
+            "description": "Parsed from NIM Support Matrix: Llama-3.2-90B-Vision-Instruct#",
+            "type": "vision-instruct",
+            "nim_type": "vision",
+            "num_parameters": 0,
+            "date_published": "",
+            "publisher": "",
+            "license_url": "",
+            "model_card_url": "",
+            "language_support": [],
+            "image_support": true
+          },
+          "launch_configurations": [
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "non-optimized",
+              "gpu_memory_gb": 240,
+              "precision": "BF16",
+              "disk_space_gb": 200,
+              "type": "unknown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "visual-design",
+      "models": [
+        {
+          "model_name": "Llama-3.2-11B-Vision-Instruct#",
+          "model_info": {
+            "description": "Parsed from NIM Support Matrix: Llama-3.2-11B-Vision-Instruct#",
+            "type": "vision-instruct",
+            "nim_type": "vision",
+            "num_parameters": 0,
+            "date_published": "",
+            "publisher": "",
+            "license_url": "",
+            "model_card_url": "",
+            "language_support": [],
+            "image_support": true
+          },
+          "launch_configurations": [
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A10G",
+              "gpu_memory_gb": 24,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A10G",
+              "gpu_memory_gb": 24,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "non-optimized",
+              "gpu_memory_gb": 60,
+              "precision": "BF16",
+              "disk_space_gb": 50,
+              "type": "unknown"
+            }
+          ]
+        },
+        {
+          "model_name": "Llama-3.2-90B-Vision-Instruct#",
+          "model_info": {
+            "description": "Parsed from NIM Support Matrix: Llama-3.2-90B-Vision-Instruct#",
+            "type": "vision-instruct",
+            "nim_type": "vision",
+            "num_parameters": 0,
+            "date_published": "",
+            "publisher": "",
+            "license_url": "",
+            "model_card_url": "",
+            "language_support": [],
+            "image_support": true
+          },
+          "launch_configurations": [
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "non-optimized",
+              "gpu_memory_gb": 240,
+              "precision": "BF16",
+              "disk_space_gb": 200,
+              "type": "unknown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "retrieval",
+      "models": [
+        {
+          "model_name": "Llama-3.2-11B-Vision-Instruct#",
+          "model_info": {
+            "description": "Parsed from NIM Support Matrix: Llama-3.2-11B-Vision-Instruct#",
+            "type": "vision-instruct",
+            "nim_type": "vision",
+            "num_parameters": 0,
+            "date_published": "",
+            "publisher": "",
+            "license_url": "",
+            "model_card_url": "",
+            "language_support": [],
+            "image_support": true
+          },
+          "launch_configurations": [
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A10G",
+              "gpu_memory_gb": 24,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A10G",
+              "gpu_memory_gb": 24,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "non-optimized",
+              "gpu_memory_gb": 60,
+              "precision": "BF16",
+              "disk_space_gb": 50,
+              "type": "unknown"
+            }
+          ]
+        },
+        {
+          "model_name": "Llama-3.2-90B-Vision-Instruct#",
+          "model_info": {
+            "description": "Parsed from NIM Support Matrix: Llama-3.2-90B-Vision-Instruct#",
+            "type": "vision-instruct",
+            "nim_type": "vision",
+            "num_parameters": 0,
+            "date_published": "",
+            "publisher": "",
+            "license_url": "",
+            "model_card_url": "",
+            "language_support": [],
+            "image_support": true
+          },
+          "launch_configurations": [
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "non-optimized",
+              "gpu_memory_gb": 240,
+              "precision": "BF16",
+              "disk_space_gb": 200,
+              "type": "unknown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "speech",
+      "models": [
+        {
+          "model_name": "Llama-3.2-11B-Vision-Instruct#",
+          "model_info": {
+            "description": "Parsed from NIM Support Matrix: Llama-3.2-11B-Vision-Instruct#",
+            "type": "vision-instruct",
+            "nim_type": "vision",
+            "num_parameters": 0,
+            "date_published": "",
+            "publisher": "",
+            "license_url": "",
+            "model_card_url": "",
+            "language_support": [],
+            "image_support": true
+          },
+          "launch_configurations": [
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A10G",
+              "gpu_memory_gb": 24,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A10G",
+              "gpu_memory_gb": 24,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "non-optimized",
+              "gpu_memory_gb": 60,
+              "precision": "BF16",
+              "disk_space_gb": 50,
+              "type": "unknown"
+            }
+          ]
+        },
+        {
+          "model_name": "Llama-3.2-90B-Vision-Instruct#",
+          "model_info": {
+            "description": "Parsed from NIM Support Matrix: Llama-3.2-90B-Vision-Instruct#",
+            "type": "vision-instruct",
+            "nim_type": "vision",
+            "num_parameters": 0,
+            "date_published": "",
+            "publisher": "",
+            "license_url": "",
+            "model_card_url": "",
+            "language_support": [],
+            "image_support": true
+          },
+          "launch_configurations": [
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "non-optimized",
+              "gpu_memory_gb": 240,
+              "precision": "BF16",
+              "disk_space_gb": 200,
+              "type": "unknown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "biology",
+      "models": [
+        {
+          "model_name": "Llama-3.2-11B-Vision-Instruct#",
+          "model_info": {
+            "description": "Parsed from NIM Support Matrix: Llama-3.2-11B-Vision-Instruct#",
+            "type": "vision-instruct",
+            "nim_type": "vision",
+            "num_parameters": 0,
+            "date_published": "",
+            "publisher": "",
+            "license_url": "",
+            "model_card_url": "",
+            "language_support": [],
+            "image_support": true
+          },
+          "launch_configurations": [
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A10G",
+              "gpu_memory_gb": 24,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A10G",
+              "gpu_memory_gb": 24,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "non-optimized",
+              "gpu_memory_gb": 60,
+              "precision": "BF16",
+              "disk_space_gb": 50,
+              "type": "unknown"
+            }
+          ]
+        },
+        {
+          "model_name": "Llama-3.2-90B-Vision-Instruct#",
+          "model_info": {
+            "description": "Parsed from NIM Support Matrix: Llama-3.2-90B-Vision-Instruct#",
+            "type": "vision-instruct",
+            "nim_type": "vision",
+            "num_parameters": 0,
+            "date_published": "",
+            "publisher": "",
+            "license_url": "",
+            "model_card_url": "",
+            "language_support": [],
+            "image_support": true
+          },
+          "launch_configurations": [
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "non-optimized",
+              "gpu_memory_gb": 240,
+              "precision": "BF16",
+              "disk_space_gb": 200,
+              "type": "unknown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "simulation",
+      "models": [
+        {
+          "model_name": "Llama-3.2-11B-Vision-Instruct#",
+          "model_info": {
+            "description": "Parsed from NIM Support Matrix: Llama-3.2-11B-Vision-Instruct#",
+            "type": "vision-instruct",
+            "nim_type": "vision",
+            "num_parameters": 0,
+            "date_published": "",
+            "publisher": "",
+            "license_url": "",
+            "model_card_url": "",
+            "language_support": [],
+            "image_support": true
+          },
+          "launch_configurations": [
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A10G",
+              "gpu_memory_gb": 24,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A10G",
+              "gpu_memory_gb": 24,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "non-optimized",
+              "gpu_memory_gb": 60,
+              "precision": "BF16",
+              "disk_space_gb": 50,
+              "type": "unknown"
+            }
+          ]
+        },
+        {
+          "model_name": "Llama-3.2-90B-Vision-Instruct#",
+          "model_info": {
+            "description": "Parsed from NIM Support Matrix: Llama-3.2-90B-Vision-Instruct#",
+            "type": "vision-instruct",
+            "nim_type": "vision",
+            "num_parameters": 0,
+            "date_published": "",
+            "publisher": "",
+            "license_url": "",
+            "model_card_url": "",
+            "language_support": [],
+            "image_support": true
+          },
+          "launch_configurations": [
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "non-optimized",
+              "gpu_memory_gb": 240,
+              "precision": "BF16",
+              "disk_space_gb": 200,
+              "type": "unknown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "climate-weather",
+      "models": [
+        {
+          "model_name": "Llama-3.2-11B-Vision-Instruct#",
+          "model_info": {
+            "description": "Parsed from NIM Support Matrix: Llama-3.2-11B-Vision-Instruct#",
+            "type": "vision-instruct",
+            "nim_type": "vision",
+            "num_parameters": 0,
+            "date_published": "",
+            "publisher": "",
+            "license_url": "",
+            "model_card_url": "",
+            "language_support": [],
+            "image_support": true
+          },
+          "launch_configurations": [
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A10G",
+              "gpu_memory_gb": 24,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A10G",
+              "gpu_memory_gb": 24,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "non-optimized",
+              "gpu_memory_gb": 60,
+              "precision": "BF16",
+              "disk_space_gb": 50,
+              "type": "unknown"
+            }
+          ]
+        },
+        {
+          "model_name": "Llama-3.2-90B-Vision-Instruct#",
+          "model_info": {
+            "description": "Parsed from NIM Support Matrix: Llama-3.2-90B-Vision-Instruct#",
+            "type": "vision-instruct",
+            "nim_type": "vision",
+            "num_parameters": 0,
+            "date_published": "",
+            "publisher": "",
+            "license_url": "",
+            "model_card_url": "",
+            "language_support": [],
+            "image_support": true
+          },
+          "launch_configurations": [
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "non-optimized",
+              "gpu_memory_gb": 240,
+              "precision": "BF16",
+              "disk_space_gb": 200,
+              "type": "unknown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_name": "safety-moderation",
+      "models": [
+        {
+          "model_name": "Llama-3.2-11B-Vision-Instruct#",
+          "model_info": {
+            "description": "Parsed from NIM Support Matrix: Llama-3.2-11B-Vision-Instruct#",
+            "type": "vision-instruct",
+            "nim_type": "vision",
+            "num_parameters": 0,
+            "date_published": "",
+            "publisher": "",
+            "license_url": "",
+            "model_card_url": "",
+            "language_support": [],
+            "image_support": true
+          },
+          "launch_configurations": [
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A10G",
+              "gpu_memory_gb": 24,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A10G",
+              "gpu_memory_gb": 24,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "non-optimized",
+              "gpu_memory_gb": 60,
+              "precision": "BF16",
+              "disk_space_gb": 50,
+              "type": "unknown"
+            }
+          ]
+        },
+        {
+          "model_name": "Llama-3.2-90B-Vision-Instruct#",
+          "model_info": {
+            "description": "Parsed from NIM Support Matrix: Llama-3.2-90B-Vision-Instruct#",
+            "type": "vision-instruct",
+            "nim_type": "vision",
+            "num_parameters": 0,
+            "date_published": "",
+            "publisher": "",
+            "license_url": "",
+            "model_card_url": "",
+            "language_support": [],
+            "image_support": true
+          },
+          "launch_configurations": [
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H200 SXM",
+              "gpu_memory_gb": 141,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 1
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 SXM",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "latency",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "H100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "FP8",
+              "type": "throughput",
+              "num_gpus": 2
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "latency",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "A100 PCIe",
+              "gpu_memory_gb": 80,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 4
+            },
+            {
+              "optimized_or_not": "optimized",
+              "gpu_type": "L40S",
+              "gpu_memory_gb": 48,
+              "precision": "BF16",
+              "type": "throughput",
+              "num_gpus": 8
+            },
+            {
+              "optimized_or_not": "non-optimized",
+              "gpu_memory_gb": 240,
+              "precision": "BF16",
+              "disk_space_gb": 200,
+              "type": "unknown"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets": []
+}

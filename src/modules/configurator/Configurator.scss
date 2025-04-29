@@ -1,0 +1,143 @@
+// Configurator.scss
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap');
+
+:root {
+  --background-dark: #1a1b1f;
+  --foreground-light: #f0f0f0;
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.05);
+  --accent: linear-gradient(135deg, #ff742a, #7928ca, #0070f3, #00c6ff);
+  --font-main: 'Space Grotesk', sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--background-dark);
+  color: var(--foreground-light);
+}
+
+.stepper-custom .MuiStepConnector-line {
+  height: 2px;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 1px;
+}
+.stepper-custom .Mui-active .MuiStepConnector-line {
+  background: linear-gradient(90deg, #7928ca, #0070f3);
+}
+.stepper-custom .Mui-completed .MuiStepConnector-line {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.account-wizard {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  max-width: 1280px;
+  margin: 0 auto;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.wizard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding: 1rem 1.5rem;
+  background: var(--glass-bg);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--glass-border);
+  border-radius: 12px;
+
+  .logo {
+    font-family: 'Neue Machina', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-shadow: 0 4px 12px rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .logo .gradient {
+    background: linear-gradient(135deg, #ff742a, #7928ca, #0070f3, #00c6ff);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientAnimation 6s ease infinite;
+  }
+
+  @keyframes gradientAnimation {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+}
+
+.wizard-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  position: relative;
+
+  height: 60vh;
+
+  &.step-transition-enter {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  &.step-transition-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  &.step-transition-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  &.step-transition-exit-active {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+.wizard-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+
+  .synkro-button {
+    font-family: var(--font-main);
+    padding: 10px 26px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: none;
+    border-radius: 12px;
+    color: #ffffff;
+    background: linear-gradient(135deg, rgba(121, 40, 202, 0.3), rgba(0, 112, 243, 0.3));
+    backdrop-filter: blur(10px);
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,0.1), 0 2px 12px rgba(0,0,0,0.25);
+    transition: all 0.25s ease;
+
+    &:hover {
+      background: linear-gradient(135deg, #7928ca, #0070f3);
+      box-shadow: 0 0 10px rgba(0, 112, 243, 0.3), inset 0 0 0 1px rgba(255,255,255,0.2);
+      transform: translateY(-1px);
+    }
+
+    &:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      background: rgba(255, 255, 255, 0.05);
+      box-shadow: none;
+    }
+  }
+}
