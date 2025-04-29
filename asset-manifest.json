@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/synkro-landing/static/css/main.039b5bfb.css",
+    "main.js": "/synkro-landing/static/js/main.0b941047.js",
+    "static/js/453.53a553a5.chunk.js": "/synkro-landing/static/js/453.53a553a5.chunk.js",
+    "index.html": "/synkro-landing/index.html",
+    "main.039b5bfb.css.map": "/synkro-landing/static/css/main.039b5bfb.css.map",
+    "main.0b941047.js.map": "/synkro-landing/static/js/main.0b941047.js.map",
+    "453.53a553a5.chunk.js.map": "/synkro-landing/static/js/453.53a553a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.039b5bfb.css",
+    "static/js/main.0b941047.js"
+  ]
+}
